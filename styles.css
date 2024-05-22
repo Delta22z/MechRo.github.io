@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #242430;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    margin-right: 10px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.services, .categories, .new-products, .brands, .accessories, .social-media, .tools, .youtube-video, .subscription {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.service-list, .category-list, .product-list, .brand-list, .accessory-list, .social-icons, .tool-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.service, .category, .product, .brand, .accessory, .tool {
+    background-color: #343446;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #9121ec;
+    width: 30%;
+    
+}
+
+.service img, .category img, .product img, .brand img, .accessory img, .tool img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .contact-info, footer .footer-links {
+    flex: 1;
+}
+
+footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.subscription form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.subscription button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.subscription{
+    background-color: #707070;
+}
+
+.button_slide {
+    color: #020202;
+    border: 2px solid rgb(141, 2, 216);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #02c3d8;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #6602d8;
+  }
